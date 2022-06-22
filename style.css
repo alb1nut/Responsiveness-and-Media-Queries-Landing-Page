@@ -1,24 +1,32 @@
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+      a {
+        text-decoration:none;
+      }
+
+      button{
+        cursor:pointer;
+      }
+      
         @media screen and (max-width: 375px) {
             html,
             body {
                 margin: 0px auto;
-                font-size: 18px;
+                font-size: 12px;
                 color: hsl(192, 100%, 9%);
-                width: 100%;
+                width: 100vw;
             }
             .top {
                 position: relative;
                 box-sizing: border-box;
                 display: flex;
-                width: 100vw;
+                width: 80vw;
                 height: 1%;
             }
             header {
                 height: 190px;
                 background-color: hsl(193, 100%, 96%);
                 background-image: url(bg-hero-mobile.png);
-                width: 100%;
+                /* width: 100%; */
                 padding-left: 13px;
             }
             h6 {
