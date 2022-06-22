@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+@media screen and (max-width: 375px) {
+    html,
+    body {
+        margin: 0px auto;
+        font-size: 18px;
+        color: hsl(192, 100%, 9%);
+        width: 100%;
+    }
+    .top {
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        width: 100%;
+        height: 1%;
+    }
+    header {
+        height: 190px;
+        background-color: hsl(193, 100%, 96%);
+        background-image: url(bg-hero-mobile.png);
+        width: 100%;
+        padding-left: 13px;
+    }
+    h5 {
+        font-family: 'Poppins', sans-serif;
+    }
+    .logo {
+        position: relative;
+        width: 40%;
+        padding: 5px;
+    }
+    .top-logo {
+        width: 3em;
+    }
+    .btn {
+        position: relative;
+        padding: 4px;
+        margin-left: 110px;
+        background-color: aliceblue;
+    }
+    .btn button {
+        border: none;
+        color: hsl(192, 100%, 9%);
+        background-color: white;
+        border-radius: 15px;
+        width: 75px;
+        height: 18px;
+        padding: 2px;
+        font-size: 9px;
+    }
+    .build {
+        position: relative;
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        color: hsl(192, 100%, 9%);
+    }
+    .text {
+        position: relative;
+        width: 45%;
+        height: 30px;
+        padding-top: 20px;
+        margin: 10px;
+    }
+    .text h6 {
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+    .text p {
+        font-size: 5px;
+        padding: 1px;
+        color: hsl(192, 100%, 9%);
+    }
+    .text button {
+        width: 80px;
+        height: 18px;
+        border: none;
+        border-radius: 15px;
+        background-color: hsl(322, 100%, 66%);
+        font-size: 5px;
+        color: aliceblue;
+    }
+    .illus {
+        position: relative;
+        width: 50%;
+        margin-top: 30px;
+        margin-right: 40px;
+    }
+    .illus-icon {
+        width: 11em;
+        height: 140px;
+    }
+    .container {
+        display: flex;
+        box-sizing: border-box;
+        border: hsl(193, 100%, 96%) solid 2px;
+        border-radius: 5px;
+        margin-left: 20px;
+        padding-top: 10px;
+        padding-right: 5px;
+        margin-top: 40px;
+        margin-right: 5px;
+        width: 90%;
+        padding-left: 10px;
+    }
+    .Grow h6 {
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+    .Grow p {
+        font-size: 6px;
+        padding: 1px;
+        color: hsl(192, 100%, 9%);
+    }
+    .grow-icon {
+        width: 10em;
+        height: 140px;
+    }
+    .container2 {
+        display: flex;
+        box-sizing: border-box;
+        border: hsl(193, 100%, 96%) solid 2px;
+        border-radius: 5px;
+        margin-left: 20px;
+        padding: 10px;
+        padding-right: 1px;
+        margin-top: 40px;
+        margin-right: 1px;
+        width: 90%;
+        padding-left: 10px;
+    }
+    .flow {
+        margin-bottom: 0px;
+        font-size: 15px;
+    }
+    .flow-icon {
+        width: 10em;
+        height: 140px;
+    }
+    .flow p {
+        font-size: 6px;
+        padding: 1px;
+        color: hsl(192, 100%, 9%);
+    }
+    .container3 {
+        display: flex;
+        box-sizing: border-box;
+        border: hsl(193, 100%, 96%) solid 2px;
+        border-radius: 5px;
+        margin-left: 20px;
+        padding: 10px;
+        padding-right: 7px;
+        margin-top: 40px;
+        margin-right: 1px;
+        width: 90%;
+        padding-left: 10px;
+    }
+    .users h6 {
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+    .iT {
+        font-size: 8px;
+        padding: 1px;
+        color: hsl(192, 100%, 9%);
+    }
+    .users-icon {
+        width: 6em;
+        height: 110px;
+    }
+    .ready {
+        display: inline-block;
+        box-sizing: border-box;
+        position: relative;
+        text-align: center;
+        top: 25px;
+        background-color: white;
+        border: hsl(193, 100%, 96%) solid 0px;
+        border-radius: 5px;
+        width: 60%;
+        height: 80px;
+        padding-top: 0px;
+        margin-top: 10px;
+        left: 75px;
+        top: 40px;
+    }
+    .readTo {
+        margin-bottom: 0px;
+        font-size: 10px;
+    }
+    .get-btn {
+        width: 80px;
+        height: 18px;
+        border: none;
+        border-radius: 15px;
+        background-color: hsl(322, 100%, 66%);
+        font-size: 5px;
+        color: aliceblue;
+        position: relative;
+        top: -25px;
+    }
+    footer {
+        width: 100%;
+        display: flex;
+        background-color: hsl(192, 100%, 9%);
+        color: aliceblue;
+        height: 140px;
+        padding-left: 20px;
+        padding-top: 50px;
+        margin-bottom: 0px;
+    }
+    .left {
+        width: 6%;
+        /*font-size: 10px;*/
+        padding-right: 0px;
+    }
+    .huddle-icon {
+        width: 4em;
+        padding-top: 1px;
+        filter: hsl(192, 100%, 9%)(100%);
+        border-radius: 20px;
+        border: white 1px;
+    }
+    .loc-icon {
+        width: 8px;
+        margin-left: 11px;
+        padding-top: 15px;
+        margin-bottom: 9px;
+    }
+    .ph-icon {
+        width: 8px;
+        margin-left: 11px;
+        margin-bottom: 0px;
+        padding-bottom: 1px;
+    }
+    .em-icon {
+        width: 8px;
+        margin-left: 11px;
+    }
+    .next {
+        position: relative;
+        top: 30px;
+        width: 22%;
+        font-size: 8px;
+        text-align: left;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .lorem {
+        font-size: 6px;
+        margin-top: 5px;
+    }
+    .num {
+        font-size: 7px;
+        margin-top: 10px;
+    }
+    .exam {
+        font-size: 7px;
+        margin-top: 5px;
+        position: relative;
+        top: 7px;
+    }
+    .mid {
+        width: 16%;
+        font-size: 8px;
+        text-align: left;
+        margin-top: 25px;
+        padding-left: 15px;
+    }
+    .middle {
+        width: 16%;
+        font-size: 8px;
+        text-align: left;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+    .right {
+        /*width: 22%;*/
+        font-size: 4px;
+        text-align: left;
+        margin-top: 105px;
+        margin-left: 17px;
+    }
+    .social {
+        background: transparent;
+    }
+    .fa-facebook {
+        color: white;
+        background: transparent;
+        width: 10px;
+        border-radius: 20px;
+        border: white solid 1px;
+        text-align: center;
+        position: relative;
+        bottom: 70px;
+        padding: 1px;
+    }
+    .fa-twitter {
+        color: white;
+        background: transparent;
+        width: 10px;
+        border-radius: 20px;
+        border: white solid 1px;
+        text-align: center;
+        position: relative;
+        bottom: 70px;
+        padding: 1px;
+    }
+    .fa-instagram {
+        color: white;
+        background: transparent;
+        width: 10px;
+        border-radius: 20px;
+        border: white solid 1px;
+        text-align: center;
+        position: relative;
+        bottom: 70px;
+        padding: 1px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    html,
+    body {
+        margin: 0px;
+        font-size: 18px;
+        color: hsl(192, 100%, 9%);
+        width: 100%;
+        padding: 0px;
+    }
+    .top {
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        width: 100%;
+        height: 1%;
+        padding-left: 70px;
+        padding-top: 30px;
+    }
+    header {
+        height: 590px;
+        background-color: hsl(193, 100%, 96%);
+        background-image: url(bg-hero-mobile.png);
+        width: 100%;
+        padding-left: 13px;
+    }
+    h5 {
+        font-family: 'Poppins', sans-serif;
+    }
+    .logo {
+        position: relative;
+        width: 40%;
+        padding: 5px;
+    }
+    .top-logo {
+        width: 9em;
+    }
+    .btn {
+        position: relative;
+        padding: 4px;
+        margin-left: 560px;
+        background-color: aliceblue;
+    }
+    .btn button {
+        border: none;
+        color: hsl(192, 100%, 9%);
+        background-color: white;
+        border-radius: 15px;
+        width: 105px;
+        height: 28px;
+        padding: 2px;
+        font-size: 13px;
+    }
+    .build {
+        position: relative;
+        width: 100%;
+        display: flex;
+        color: hsl(192, 100%, 9%);
+    }
+    .text {
+        position: relative;
+        width: 50%;
+        height: 200px;
+        padding-top: 50px;
+        padding-left: 70px;
+    }
+    .text h6 {
+        margin-bottom: 0px;
+        font-size: 40px;
+        width: 60%;
+    }
+    .text p {
+        font-size: 18px;
+        padding: 1px;
+        color: hsl(192, 100%, 9%);
+        width: 65%;
+    }
+    .text button {
+        width: 180px;
+        height: 35px;
+        border: none;
+        border-radius: 15px;
+        background-color: hsl(322, 100%, 66%);
+        font-size: 10px;
+        color: aliceblue;
+    }
+    .illus {
+        position: relative;
+        width: 40%;
+        margin-top: 80px;
+        padding-right: 40px;
+    }
+    .illus-icon {
+        width: 30em;
+        height: 400px;
+    }
+    .container {
+        display: flex;
+        box-sizing: border-box;
+        border: hsl(193, 100%, 96%) solid 2px;
+        border-radius: 5px;
+        margin-left: 40px;
+        padding-top: 10px;
+        padding-right: 5px;
+        margin-top: 80px;
+        margin-right: 5px;
+        width: 90%;
+        padding-left: 70px;
+        position: relative;
+        height: 300px;
+    }
+    .Grow h6 {
+        margin-bottom: 0px;
+        font-size: 40px;
+        width: 90%;
+        padding-top: 0px;
+    }
+    .Grow p {
+        font-size: 14px;
+        padding: 1px;
+        color: hsl(192, 100%, 9%);
+        width: 60%;
+    }
+    .grow-icon {
+        width: 22em;
+        height: 250px;
+    }
+    .iG {
+        width: 40%;
+        padding-left: 200px;
+        padding-right: 100px;
+    }
+    .container2 {
+        display: flex;
+        box-sizing: border-box;
+        border: hsl(193, 100%, 96%) solid 2px;
+        border-radius: 5px;
+        margin-left: 40px;
+        padding-top: 10px;
+        padding-right: 5px;
+        margin-top: 40px;
+        margin-right: 5px;
+        width: 90%;
+        padding-left: 70px;
+        position: relative;
+        height: 300px;
+    }
+    .flow h6 {
+        margin-bottom: 0px;
+        font-size: 40px;
+        width: 90%;
+        padding-top: 0px;
+    }
+    .flow-icon {
+        width: 22em;
+        height: 250px;
+    }
+    .flow p {
+        font-size: 14px;
+        padding: 1px;
+        color: hsl(192, 100%, 9%);
+        width: 60%;
+    }
+    .iF {
+        width: 40%;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .container3 {
+        display: flex;
+        box-sizing: border-box;
+        border: hsl(193, 100%, 96%) solid 2px;
+        border-radius: 5px;
+        margin-left: 40px;
+        padding-top: 10px;
+        padding-right: 5px;
+        margin-top: 40px;
+        margin-right: 5px;
+        width: 90%;
+        padding-left: 70px;
+        position: relative;
+        height: 300px;
+    }
+    .users h6 {
+        margin-bottom: 0px;
+        font-size: 40px;
+        width: 90%;
+        padding-top: 0px;
+    }
+    .iT {
+        font-size: 14px;
+        padding: 1px;
+        color: hsl(192, 100%, 9%);
+        width: 60%;
+    }
+    .iY {
+        width: 40%;
+        padding-left: 200px;
+        padding-right: 100px;
+    }
+    .users-icon {
+        width: 22em;
+        height: 250px;
+    }
+    .ready {
+        display: inline-block;
+        box-sizing: border-box;
+        position: relative;
+        text-align: center;
+        background-color: white;
+        border: hsl(193, 100%, 96%) solid 0px;
+        border-radius: 5px;
+        width: 60%;
+        height: 80px;
+        padding-top: 0px;
+        margin-top: 10px;
+        left: 275px;
+        top: 90px;
+    }
+    .readyTo {
+        margin-bottom: 0px;
+        font-size: 18px;
+        padding-top: 0px;
+    }
+    .get-btn {
+        width: 80px;
+        height: 18px;
+        border: none;
+        border-radius: 15px;
+        background-color: hsl(322, 100%, 66%);
+        font-size: 5px;
+        color: aliceblue;
+        position: relative;
+        top: -25px;
+    }
+    footer {
+        width: 100%;
+        display: flex;
+        background-color: hsl(192, 100%, 9%);
+        color: aliceblue;
+        height: 340px;
+        padding-left: 20px;
+        padding-top: 200px;
+        margin-bottom: 0px;
+    }
+    .left {
+        width: 6%;
+        /*font-size: 10px;*/
+        padding-right: 0px;
+    }
+}
